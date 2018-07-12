@@ -1,0 +1,38 @@
+w_dim:             300
+h_dim:             96
+max_q_length:      60
+max_e_length:      806
+p_seq:  10
+q_seq:  20
+n_encoder_p_layers:  2
+n_encoder_q_layers:  2
+keep_prob:         0.6
+batch_size:        20
+epoch:             [79, 130]
+display_step:      100
+restore:          True
+save:              True
+n_classes:         806
+lr:                0.0001
+l2:                0
+restore_dir:       ../best/exp11/
+save_dir:          ../best/exp11/
+model_to_restore:  model-tech-77-4352
+gpu_device:        1
+store_result:      data/tech/poke_apple/
+is_test:           True
+char_vocab_size:    203
+char_embed_size:    20
+num_highway_layers: 2
+kernels:    [ 1,   2,   3,   4, 5]
+kernel_features:    [10, 10, 20, 30, 30]
+max_word_length:    20
+id_index:   0
+q_index:    1
+p_index:    2
+a_start_index:    3
+a_end_index:    4
+max_word_len:   20
+n_enc_modeling_layers: 2
+num_blend_units: 1
+num_indices: 2
